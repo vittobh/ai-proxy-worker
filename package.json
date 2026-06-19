@@ -1,0 +1,14 @@
+{
+  "name": "ai-proxy-worker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cloudflare Worker proxying Anthropic / Gemini / Grok / OpenAI for vittobh.github.io prototypes.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+name = "ai-proxy"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+# Secrets (set via `wrangler secret put` — never commit):
+#   ANTHROPIC_API_KEY
+#   GEMINI_API_KEY     (optional)
+#   GROK_API_KEY       (optional)
+#   OPENAI_API_KEY     (optional)
